@@ -1,0 +1,40 @@
+.btn {
+    margin-left: 70%;
+    margin-top: 10%;
+    padding: 10px 20px;
+    border: 0.5px solid #4f77b4;
+    font-size: 19px;
+    font-weight: 650;
+}
+
+.img {
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.title {
+    margin-left: 3%;
+}
+
+.container {
+    border: 0.1px solid #000000;
+
+}
+
+.horizontal-box {
+    display: flex;
+    /* Utilizamos flexbox para distribuir elementos horizontalmente */
+    align-items: center;
+    /* Alineamos verticalmente los elementos */
+}
+
+/* Estilos para el input text */
+.input-text {
+    border: 1px solid #ccc;
+    /* Añadimos un borde al input text */
+    padding: 5px;
+    /* Añadimos un poco de espacio interno */
+    margin-left: 10px;
+    /* Añadimos margen a la izquierda para separarlo del texto */
+}
+
