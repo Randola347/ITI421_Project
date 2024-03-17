@@ -1,24 +1,26 @@
 .btn {
-    margin-left: 70%;
-    margin-top: 10%;
+    margin-left: 85%;
+    margin-top: 6%;
     padding: 10px 20px;
     border: 0.5px solid #4f77b4;
     font-size: 19px;
     font-weight: 650;
+    border-radius: 0%;
 }
 
 .img {
-    margin-top: 10%;
-    margin-left: 25%;
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 25%;
 }
 
 .title {
     margin-left: 3%;
+    margin-top: 2%;
 }
 
 .container {
-    border: 0.1px solid #000000;
-
+    margin-top: 2%;
 }
 
 .horizontal-box {
@@ -38,3 +40,40 @@
     /* Añadimos margen a la izquierda para separarlo del texto */
 }
 
+.box {
+    margin-left: 2.9%;
+    margin-right: 5%;
+    border: 1.5px solid #000000;
+    padding: 10px;
+}
+
+.table {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ddd;
+    /* Agrega una línea alrededor del contenedor */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    /* Agrega una línea horizontal debajo de cada fila */
+}
+
+.col {
+    width: 25%;
+    text-align: left;
+    border-right: 1px solid #ddd;
+    /* Agrega una línea vertical a la derecha de cada columna */
+}
+
+.col:last-child {
+    border-right: none;
+    /* Elimina la línea vertical de la última columna */
+}
+
+.button{
+    color: #000000;
+}
