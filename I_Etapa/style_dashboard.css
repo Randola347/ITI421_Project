@@ -4,8 +4,9 @@
     width: 25%;
 }
 
+
 .title {
-    margin-left: 3%;
+    margin-left: 0%;
     margin-top: 2%;
 }
 
@@ -38,10 +39,55 @@
     /* Agrega una línea vertical a la derecha de cada columna */
 }
 
-.card{
+.card {
     border-radius: 10px;
 }
+
 .col:last-child {
     border-right: none;
     /* Elimina la línea vertical de la última columna */
+}
+
+.dashboard-link {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.dashboard-link a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.dashboard-link .arrow {
+    color: blue;
+    margin-left: 5px;
+}
+
+.welcome-user .user-icon {
+    margin-left: 5px;
+    width: 30px;
+}
+
+.welcome-user {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-left: 70%;
+}
+
+.welcome-user .title {
+    margin-left: -235%;
+    margin-top: -10%;
+}
+
+.welcome-user span {
+    color: black;
+}
+
+.username {
+    color: orange;
+}
+
+.dashboard-link .arrow {
+    color: rgb(0, 0, 0);
+    margin-left: 5px;
 }
