@@ -91,3 +91,48 @@
     color: rgb(0, 0, 0);
     margin-left: 5px;
 }
+
+.buttonplus {
+    margin-top: -7%;
+    margin-left: 85%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 6px;
+    background-color: #D3D3D3;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.buttonplus2 {
+    margin-top: 1%;
+    margin-left: 85%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 6px;
+    background-color: #D3D3D3;
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.plus {
+    background-color: #696969;
+    position: absolute;
+    border-radius: 1px;
+}
+
+.horizontal {
+    width: 20px;
+    height: 3px;
+    top: 18.5px;
+    left: 10px;
+}
+
+.vertical {
+    width: 3px;
+    height: 20px;
+    top: 10px;
+    left: 18.5px;
+}
