@@ -1,0 +1,47 @@
+.img {
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 25%;
+}
+
+.title {
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.container {
+    margin-top: 2%;
+}
+
+.table {
+    margin-top: 50%;
+    width: 80%;
+    margin: auto;
+}
+
+.buttonmain {
+    color: black;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    /* Agrega una línea horizontal debajo de cada fila */
+}
+
+.col {
+    width: 25%;
+    text-align: left;
+    border-right: 1px solid #ddd;
+    /* Agrega una línea vertical a la derecha de cada columna */
+}
+
+.card{
+    border-radius: 10px;
+}
+.col:last-child {
+    border-right: none;
+    /* Elimina la línea vertical de la última columna */
+}
