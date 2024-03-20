@@ -5,31 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles_principal.css">
+    <link rel="stylesheet" href="CSS/styles_principal.css">
     <title>Tico Rides</title>
 
 </head>
 
 <body>
+    <!-- Container for page content -->
     <div class="container">
+        <!-- Row for content, centered -->
         <div class="row justify-content-center mt-5">
+            <!-- Column with a width of 8 for medium-sized screens -->
             <div class="col-md-8">
+                <!-- Card container -->
                 <div class="card">
+                    <!-- Card body -->
                     <div class="card-body">
+                        <!-- Link to login page -->
                         <a href="login.html" class="btn">Login</a>
+                        <!-- Logo image -->
                         <img src="logo.png" class="img" alt="Fines Ilustrativos">
+                        <!-- Title -->
                         <h5 class="title">Welcome to TicoRides.com</h5>
+                        <!-- Title for search section -->
                         <p class="title">Search for a Ride</p>
+                        <!-- Box containing search form -->
                         <div class="box">
-                            <span>Form</span> <!-- Texto "Form" -->
+                            <!-- Text for "Form" -->
+                            <span>Form</span>
+                            <!-- Input field for "From" location -->
                             <input type="text" class="input-text" value="Input Text" onfocus="this.value=''">
-                            <!-- Input text con borde -->
-                            <span>To</span> <!-- Texto "To" -->
+                            <!-- Text for "To" -->
+                            <span>To</span>
+                            <!-- Input field for "To" location -->
                             <input type="text" class="input-text" value="Input Text" onfocus="this.value=''">
-                            <button class="my-button">Find my Ride!</button> <!-- Botón "Find my Ride" -->
+                            <!-- Button to find rides -->
+                            <button class="my-button">Find my Ride!</button>
                         </div>
+                        <!-- Title for results section -->
                         <p class="title">Results for Rides that matches your criteria:</p>
+                        <!-- Table displaying ride results -->
                         <div class="table">
+                            <!-- Table row with column headings -->
                             <div class="row align-items-start ml-3">
                                 <div class="col">
                                     User
@@ -41,9 +58,10 @@
                                     End
                                 </div>
                                 <div class="col">
-
+                                    <!-- Empty column for actions -->
                                 </div>
                             </div>
+                            <!-- Sample ride entry -->
                             <div class="row align-items-start ml-3">
                                 <div class="col">
                                     barroyo
@@ -55,6 +73,7 @@
                                     Ciudad Quesada
                                 </div>
                                 <div class="col">
+                                    <!-- Button to view ride details -->
                                     <a href="" class="button">View</a>
                                 </div>
                             </div>
@@ -107,5 +126,6 @@
         </div>
     </div>
 </body>
+
 
 </html>

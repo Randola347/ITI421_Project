@@ -5,17 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style_settings.css">
+    <link rel="stylesheet" href="CSS/style_settings.css">
     <title>Tico Rides</title>
 
 </head>
 
 <body>
+    <!-- Container for page content -->
     <div class="container">
+        <!-- Row for content, centered -->
         <div class="row justify-content-center mt-5">
+            <!-- Column with a width of 8 for medium-sized screens -->
             <div class="col-md-8">
+                <!-- Logo image -->
                 <img src="logo.png" class="img" alt="Fines Ilustrativos">
+                <!-- Card container -->
                 <div class="card">
+                    <!-- Row for navigation links -->
                     <div class="row align-items-start ml-1">
                         <div class="col">
                             <a href="dashboard.html" class="buttonmain">Dashboard</a>
@@ -28,24 +34,31 @@
                         </div>
                     </div>
                 </div>
+                <!-- Welcome message with user's name -->
                 <div class="welcome-user">
                     <span>Welcome</span>
                     <a class="username">barroyo</a>
                     <img src="user.png" alt="User Icon" class="user-icon">
                     <h2 class="title">Dashboard</h2>
                 </div>
+                <!-- Breadcrumb links -->
                 <div class="dashboard-link">
                     <a href="#">Dashboard</a>
                     <span class="arrow">> Settings</span>
                 </div>
+                <!-- Information section -->
                 <div class="info">
+                    <!-- Label and input field for full name -->
                     <label for="fullname" class="form-label">Nombre Completo</label>
                     <input type="text" class="form-control" id="fullname" placeholder="Bladimir Barroyo">
+                    <!-- Label and input field for average speed -->
                     <label for="speedAverage" class="form-label">Velocidad Media</label>
                     <input type="text" class="form-control" id="speedAverage" placeholder="60 km/h">
+                    <!-- Label and textarea for personal description -->
                     <label for="aboutMe" class="form-label">Sobre mí</label>
                     <div class="about-me">
                         <textarea id="aboutMe" placeholder="Algo sobre mi va aqui"></textarea>
+                        <!-- Buttons for cancel and save -->
                         <div class="buttons">
                             <a href="dashboard.html">Cancelar</a>
                             <button class="save">Guardar</button>
