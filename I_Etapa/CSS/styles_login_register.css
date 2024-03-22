@@ -62,8 +62,6 @@ label {
     /* Height */
     z-index: -1;
     /* Z-index */
-    background-image: url('fondo_login.png');
-    /* Background image */
     background-repeat: no-repeat;
     /* No repeat */
     background-size: cover;

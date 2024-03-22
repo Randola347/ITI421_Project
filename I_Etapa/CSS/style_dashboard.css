@@ -215,3 +215,27 @@
     left: 18.5px;
     /* Position from left */
 }
+
+/* iPhone 12 */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    .container {
+        width: auto;
+    }
+
+    .table {
+        width: auto;
+        padding: auto;
+    }
+}
+
+/* iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .container {
+        width: auto;
+    }
+
+    .table {
+        width: auto;
+        padding: auto;
+    }
+}

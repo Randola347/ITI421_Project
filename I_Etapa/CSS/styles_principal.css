@@ -1,6 +1,6 @@
 /* Styling for buttons */
 .btn {
-    margin-left: 85%;
+    margin-left: 75%;
     /* Margin from left */
     margin-top: 6%;
     /* Margin from top */
@@ -112,4 +112,50 @@
 .button {
     color: #000000;
     /* Button color */
+}
+
+/* iPhone 12 */
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+    .container {
+        width: auto;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .box {
+        width: auto;
+    }
+
+    .table {
+        width: auto;
+    }
+
+    .btn {
+        width: auto;
+    }
+}
+
+/* iPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+    .container {
+        width: auto;
+    }
+
+    .card {
+        width: auto;
+    }
+
+    .box {
+        width: auto;
+    }
+
+    .table {
+        width: auto;
+    }
+
+    .btn {
+        width: auto;
+    }
 }
