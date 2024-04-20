@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+require($_SERVER['DOCUMENT_ROOT'].'/shared/header.php');
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/styles_rides.css">
-    <title>Tico Rides</title>
-
-</head>
 
 <body>
     <!-- Container for page content -->
@@ -18,19 +11,19 @@
             <!-- Column with a width of 8 for medium-sized screens -->
             <div class="col-md-8">
                 <!-- Logo image -->
-                <img src="Image/logo.png" class="img" alt="Fines Ilustrativos">
+                <img src="logo.png" class="img" alt="Fines Ilustrativos">
                 <!-- Card container -->
                 <div class="card">
                     <!-- Row for navigation links -->
                     <div class="row align-items-start ml-1">
                         <div class="col">
-                            <a href="dashboard.html" class="buttonmain">Dashboard</a>
+                            <a href="dashboard.php" class="buttonmain">Dashboard</a>
                         </div>
                         <div class="col">
-                            <a href="rides.html" class="buttonmain">Rides</a>
+                            <a href="rides.php" class="buttonmain">Rides</a>
                         </div>
                         <div class="col">
-                            <a href="settings.html" class="buttonmain">Settings</a>
+                            <a href="settings.php" class="buttonmain">Settings</a>
                         </div>
                     </div>
                 </div>
@@ -43,25 +36,23 @@
                 </div>
                 <!-- Breadcrumb links -->
                 <div class="dashboard-link">
-                    <a href="#">Dashboard</a>
+                    <a href="dashboard.php">Dashboard</a>
                     <span class="arrow">></span>
-                    <a href="#">Rides</a>
-                    <span class="arrow">> Edit</span>
+                    <a href="rides.php">Rides</a>
+                    <span href="add.php" class="arrow">> Add</span>
                 </div>
                 <!-- Information section -->
                 <div class="info">
                     <!-- Label and input field for ride name -->
                     <label for="ridename" class="form-label">Nombre del Viaje</label>
-                    <input type="text" class="form-control" id="ridename" placeholder="Brete">
+                    <input type="text" class="form-control" id="ridename" placeholder="Input Text">
                     <!-- Label and input field for starting location -->
                     <label for="startfrom" class="form-label">Lugar de Salida</label>
-                    <input type="text" class="form-control" id="startfrom"
-                        placeholder="Barrio Los Angeles, Ciudad Quesada">
+                    <input type="text" class="form-control" id="location" placeholder="Input Text">
                     <!-- Label and textarea for ride description -->
                     <label for="description" class="form-label">Descripción</label>
                     <div class="description">
-                        <textarea id="description"
-                            placeholder="This is my everyday ride, from Barrio Los Angles to my job´s office in Second Floor of Cooperservidores Building"></textarea>
+                        <textarea id="description" placeholder="Add here The description of the ride"></textarea>
                         <!-- Subheading for schedule -->
                         <h3>Cuando</h3>
                         <!-- Row for schedule inputs -->

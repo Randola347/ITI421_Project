@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/shared/header.php');
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/styles_login_register.css">
-    <title>TicoRides</title>
-</head>
 
 <body>
     <!-- Background image container -->
@@ -37,10 +31,10 @@
                                 <input type="password" class="form-control" placeholder="Contraseña">
 
                                 <!-- Link to registration page -->
-                                <p class="pUser"> No tiene Usuario? <a href="register.html">Registrese Aquí</a></p>
+                                <p class="pUser"> No tiene Usuario? <a href="register.php">Registrese Aquí</a></p>
 
                                 <!-- Button to submit login -->
-                                <a href="dashboard.html" class="btn btn-primary btn-block">Iniciar Sesión</a>
+                                <a href="dashboard.php" class="btn btn-primary btn-block">Iniciar Sesión</a>
                             </div>
                         </form>
                     </div>

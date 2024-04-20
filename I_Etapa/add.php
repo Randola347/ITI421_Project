@@ -1,14 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+require($_SERVER['DOCUMENT_ROOT'].'/shared/header.php');
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/styles_rides.css">
-    <title>Tico Rides</title>
-
-</head>
 
 <body>
     <!-- Container for page content -->
@@ -43,10 +36,10 @@
                 </div>
                 <!-- Breadcrumb links -->
                 <div class="dashboard-link">
-                    <a href="#">Dashboard</a>
+                    <a href="dashboard.php">Dashboard</a>
                     <span class="arrow">></span>
-                    <a href="#">Rides</a>
-                    <span class="arrow">> Add</span>
+                    <a href="rides.php">Rides</a>
+                    <span href="add.php" class="arrow">> Add</span>
                 </div>
                 <!-- Information section -->
                 <div class="info">

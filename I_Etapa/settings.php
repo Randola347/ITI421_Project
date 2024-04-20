@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style_settings.css">
-    <title>Tico Rides</title>
-
-</head>
+<?php
+require($_SERVER['DOCUMENT_ROOT'].'/shared/header.php');
+?>
 
 <body>
     <!-- Container for page content -->
@@ -24,13 +16,13 @@
                     <!-- Row for navigation links -->
                     <div class="row align-items-start ml-1">
                         <div class="col">
-                            <a href="dashboard.html" class="buttonmain">Dashboard</a>
+                            <a href="dashboard.php" class="buttonmain">Dashboard</a>
                         </div>
                         <div class="col">
-                            <a href="rides.html" class="buttonmain">Rides</a>
+                            <a href="rides.php" class="buttonmain">Rides</a>
                         </div>
                         <div class="col">
-                            <a href="settings.html" class="buttonmain">Settings</a>
+                            <a href="settings.php" class="buttonmain">Settings</a>
                         </div>
                     </div>
                 </div>
@@ -43,8 +35,8 @@
                 </div>
                 <!-- Breadcrumb links -->
                 <div class="dashboard-link">
-                    <a href="#">Dashboard</a>
-                    <span class="arrow">> Settings</span>
+                    <a href="dashboard.php">Dashboard</a>
+                    <span href="settings.php" class="arrow">> Settings</span>
                 </div>
                 <!-- Information section -->
                 <div class="info">
@@ -60,7 +52,7 @@
                         <textarea id="aboutMe" placeholder="Algo sobre mi va aqui"></textarea>
                         <!-- Buttons for cancel and save -->
                         <div class="buttons">
-                            <a href="dashboard.html">Cancelar</a>
+                            <a href="dashboard.php">Cancelar</a>
                             <button class="save">Guardar</button>
                         </div>
                     </div>

@@ -1,14 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/styles_principal.css">
-    <title>Tico Rides</title>
-
-</head>
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'] . '/shared/header.php');
+?>
 
 <body>
     <!-- Container for page content -->
@@ -22,7 +14,7 @@
                     <!-- Card body -->
                     <div class="card-body">
                         <!-- Link to login page -->
-                        <a href="login.html" class="btn">Login</a>
+                        <a href="login.php" class="btn">Login</a>
                         <!-- Logo image -->
                         <img src="Image/logo.png" class="img" alt="Fines Ilustrativos">
                         <!-- Title -->
@@ -126,6 +118,4 @@
         </div>
     </div>
 </body>
-
-
 </html>
